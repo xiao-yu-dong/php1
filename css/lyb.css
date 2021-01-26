@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: ghostwhite;
+}
+#all{
+	width: 1440px;
+	margin: 0 auto;
+	float: left;
+}
+#head{
+	width: 100%;
+	margin: 0 auto;
+}
+.dlyuzc{
+	width: 100%;
+	float: right;
+}
+.dlyuzc a{
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+.dlyuzc a:hover{
+	color: red;
+}
+#head img{
+	width: 1550px;
+	z-index: -1;
+     height: 410px;
+}
+.dhl{
+	width: 1440px;
+	height: 70px;
+	background-color: darkgray;
+	margin: 0 auto;
+	margin-left: 71px;
+}
+.dhl ul li{
+	list-style-type: none;
+	float: left;
+}
+.dhl li{
+	font-size: 45px;
+	font-family: "楷体";
+	margin-left: 70px;
+}
+.dhl a{
+	color: white;
+	text-decoration: none;
+	margin-left: 177px;
+}
+.dhl a:hover{
+	color: red;	
+}
+input[type='submit']{
+	width: 80px;
+	height: 25px;
+	border-radius: 6px;
+}

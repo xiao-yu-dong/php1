@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/bj.jpg);
+	background-size: cover;
+}
+#all{
+	width: 1440px;
+	margin: 0 auto;
+	float: left;
+}
+#head{
+	width: 100%;
+	margin: 0 auto;
+}
+.dlyuzc{
+	width: 100%;
+	float: right;
+	position: fixed;
+	top: 10px;
+	right: 20px;
+}
+.dlyuzc a{
+	width: 70px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-decoration: none;
+	color: black;
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	padding-top: 6px;
+	padding-left:10px;
+	margin-left: 50px;
+	background-color: #fff;
+}
+.dlyuzc a:hover{
+	width: 70px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-decoration: none;
+	color: black;
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	padding-top: 6px;
+	padding-left:10px;
+	margin-left: 50px;
+	background-color: #fff;
+	color: #0caf28;
+}
+#head img{
+	width: 1550px;
+	z-index: -1;
+     height: 600px;
+}
+.dhl{
+	width: 1540px;
+	height: 70px;
+	background-color: #0caf28;
+	margin: 0 auto;
+}
+.dhl ul li{
+	list-style-type: none;
+	float: left;
+}
+.dhl li{
+	font-size: 35px;
+	font-family: "楷体";
+	margin-left: 70px;
+	margin-top: 15px;
+}
+.dhl a{
+	color: white;
+	text-decoration: none;
+	margin-left: 177px;
+}
+.dhl a:hover{
+	color: #000;	
+}
+#middle{
+	width: 1400px;
+	margin: 0 auto;
+	margin-left: 71px;
+	margin-top: 15px;
+}
+.left{
+	width: 400px;
+	float: left;
+	border-radius:25px ;
+	height: 600px;
+	background-color: rgba(0,0,0,0.4);
+	margin-top: 15px;
+}
+.left-head{
+	width: 200px;
+	border-radius:50% ;
+	margin: 0 auto;
+	float: left;
+	margin-left:130px;
+	margin-top: 20px;
+}
+.left-head img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.left-middle{
+	float: left;
+	width: 400px;
+	margin-left: 40px;
+	margin-top: 24px;
+}
+.left-middle ul li{
+	list-style-type: none;
+}
+.left-middle li{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 50px;
+}
+.right{
+	width: 900px;
+	height: 600px;
+	margin-left: 50px;
+	margin-top: 15px;
+	border-radius:25px ;
+	float: left;
+	background-color: rgba(0,0,0,0.4);
+	padding-left: 15px;
+	padding-right: 15px;
+}
